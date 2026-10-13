@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from pyvesync import VeSync
 
 # Configuration
-TARGET_DEVICE_NAME = "Cisco Deskpro"
+TARGET_DEVICE_NAME = "Cisco DeskPro"
 POWER_THRESHOLD = 2.0  # Watts. Adjust this based on the actual 'off' power draw
 RECOVERY_ATTEMPTS = 3
 OFF_DURATION = 10  # Seconds to keep plug off
