@@ -65,7 +65,7 @@ async def main():
 
     app = None
     try:
-        app = VeSync(username, password)
+        app = VeSync(username, password, country_code='US')
         await app.login()
         await app.get_devices()
         
